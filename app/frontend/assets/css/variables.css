@@ -1,0 +1,33 @@
+:root{
+    /* paleta de colores */
+    --color-primario: #852417;
+    --color-secundario: #502F1E;
+    --color-terciario: #9E6A4E;
+    --color-titulo: #353434;
+    --color-titulo-light: #898988;
+    --color-subtitulo: #FFFFFF;
+    --color-subtitulo-green: #00CC18;
+    --color-fondo-white: #EDEBE5;
+    --color-fondo-black: #000000;
+
+    /* tamaño de fuente*/
+    --tamano-encabezado: 64px;
+    --tamano-seccion: 40px;
+    --tamano-titulo: 35px;
+    --tamano-subencabezado: 32px;
+    --tamano-eslogan: 28px;
+    --tamano-subtitulo: 24px;
+    --tamano-parrafo: 20px;
+    --tamano-links: 18px;
+    --tamano-titulo-mobile: 16px;
+    --tamano-subtitulo-mobil:15px;
+    --tamano-descripcion: 14px;
+    --tamano-descripcion-mobile: 12;
+
+    /* peso de fuente*/
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+
+}

@@ -1,0 +1,207 @@
+@import url(variables.css);
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--color-fondo-white);
+}
+
+/* inicio - banner*/
+.inicio-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.contenido-banner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenido-banner h1{
+    color: var(--color-secundario);
+    font-size: var(--tamano-encabezado);
+    font-weight: var(--font-weight-bold);
+}
+
+.contenido-banner p{
+    color: var(--color-fondo-black);
+    font-size: var(--tamano-parrafo);
+    font-weight: var(--font-weight-regular);
+}
+
+.btn-contenido{
+    display: flex;
+    gap: 12px;
+}
+
+.btn-contenido a{
+    text-decoration: none;
+    font-size: var(--tamano-subtitulo);
+}
+
+.btn-menu{
+    background-color: var(--color-primario);
+    color: var(--color-subtitulo);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.btn-menu:hover{
+    background-color: var(--color-secundario);
+}
+
+.btn-contacto{
+    border: 1px solid var(--color-titulo);
+    color: var(--color-titulo);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+/* inicio - bebidas favoritas*/
+.inicio-bebidas{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.title-inicio h2{
+    color: var(--color-titulo);
+    font-size: var(--tamano-subtitulo);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+}
+
+.bebidas-favoritas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.card{
+    background-color: var(--color-terciario);
+    width: 209px;
+    position: relative;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.contenido-card{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.img-card{
+    position: absolute;
+    top: -130px;
+    left: 25px;
+}
+
+.cantidad{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.cantidad p{
+    color: var(--color-subtitulo);
+    font-size: var(--tamano-descripcion);
+    font-weight: var(--font-weight-medium);
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: var(--color-subtitulo);
+}
+
+.datos h3{
+    font-size: var(--tamano-parrafo);
+    font-weight: var(--font-weight-medium);
+}
+
+.datos-extras{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.datos-extras p{
+    font-size: var(--tamano-descripcion);
+    font-weight: var(--font-weight-medium);
+}
+
+/* inicio - slogan*/
+.inicio-slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    background-color: var(--color-primario);
+    color: var(--color-subtitulo);
+    text-align: center;
+    padding: 0px 50px;
+    height: 220px;
+}
+
+.slogan-contenido h2{
+    font-size: var(--tamano-subencabezado);
+    font-weight: var(--font-weight-bold);
+}
+
+.slogan-contenido p{
+    margin-top: 15px;
+    font-size: var(--tamano-parrafo);
+    font-weight: var(--font-weight-regular);
+}
+
+@media screen  and (max-width: 768px){
+    .inicio-banner{
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .img-banner{
+        display: none;
+    }
+
+    .contenido-banner h1{
+        font-size: var(--tamano-subencabezado);
+    }
+
+    .contenido-banner p{
+        font-size: var(--tamano-titulo-mobile);
+    }
+
+    .salto-linea{
+        display: none;
+    }
+
+    .bebidas-favoritas{
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .slogan-contenido p{
+        display: none;
+    }
+
+    .slogan-contenido h2{
+        font-size: var(--tamano-titulo-mobile);
+    }
+
+    .slogan-imagen img{
+        width: 206px;
+    }
+
+    .inicio-slogan{
+        height: 100px;
+    }
+    
+}

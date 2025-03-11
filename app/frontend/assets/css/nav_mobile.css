@@ -1,0 +1,17 @@
+.nav-bar-mobile{
+    display: none;
+}
+
+@media screen  and (max-width: 768px){
+    header{
+        display: none;
+    }
+    
+    .nav-bar-mobile{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 15px;
+    }
+}
